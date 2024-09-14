@@ -52,16 +52,16 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5">
+    <footer className="c-space pt-7 pb-3 border-t border-black-300 flex lg:flex-row lg:flex  justify-between items-center flex-wrap gap-5">
       <div className="text-white-500 flex gap-2">
         <p>Terms & Conditions</p>
         <p>|</p>
         <p>Privacy Policy</p>
       </div>
 
-      <div className="flex items-center justify-center ">
+      <div className="flex flex-col items-center justify-center ">
         <FloatingDock
-          mobileClassName="translate-y-20" // only for demo, remove for production
+         
           items={links}
         />
       </div>

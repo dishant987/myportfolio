@@ -17,7 +17,7 @@ export default function Study() {
                             alt="startup template"
                             width={500}
                             height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+                            className="rounded-lg hover:rounded-2xl object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                     </div>
 
@@ -33,11 +33,11 @@ export default function Study() {
                     <h1 className='mt-2 text-white text-xl text-left font-bold md:text-2xl  mb-8'><IconMapPin className='inline h-6 w-6' /> Vadodara, Gujarat</h1>
                     <div className="grid grid-cols-2 gap-4">
                         <img
-                            src="https://media.licdn.com/dms/image/v2/C4E1BAQHJFuA7YpSaog/company-background_1536_768/company-background_1536_768/0/1583919481007?e=2147483647&v=beta&t=lI24H155jzoQB6QnNdAVUcbtIhL8kX5XYPN2AmUldLI"
+                            src="/assets/clg.png"
                             alt="startup template"
                             width={500}
                             height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+                            className="rounded-lg hover:rounded-2xl duration-200 object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                     </div>
 
@@ -48,7 +48,7 @@ export default function Study() {
 
     ];
     return (
-        <div className="w-full">
+        <div className="w-full" id='education'>
             <Timeline data={data} />
         </div>
     );
