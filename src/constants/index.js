@@ -284,32 +284,42 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "WebStackacademy",
+    pos: "Full Stack Developer (MERN Stack)",
+    duration: "Aug 2023 - Sep 2023",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+      "Developed a dynamic food cart web app using the MERN stack, integrating frontend with a pre-built backend.Implemented secure user authentication, integrated Stripe for payments, and used Mailtrap for password resets.Proficient in MongoDB for effective database management.",
+    icon: "/assets/WSA-Logo.webp",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "Enlightened Digital Marketing",
+    pos: "PHP full stack developer",
+    duration: "Jan 2024 - June 2024",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
+      "Developed and launched 3+ websites with HTML, CSS, JavaScript, PHP; created dashboards for 'Geopresencetracker' with features like attendance tracking and task management; technologies: React.js, Tailwind CSS, PHP, MySQL.",
+    icon: "/assets/edmlogo.png",
     animation: "clapping",
   },
   {
     id: 3,
-    name: "Notion",
+    name: "Zidio Development(Remote)",
     pos: "Junior Web Developer",
-    duration: "2019 - 2020",
+    duration: "Apr 2024 - Jun 2024",
     title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
+      "Developed a Feedback Management System and Chat Application using the MERN stack with token-based authentication, admin/user roles, an admin panel with MUI Data Grid, and Material-UI components; team member Aniket Singh developed the feedback form frontend with ReactJS.",
+    icon: "/assets/zidio.png",
+    animation: "salute",
+  },
+  {
+    id: 4,
+    name: "InnobyteServices(Remote)",
+    pos: "Nodejs Developer",
+    duration: "july 2024 - Aug 2024",
+    title:
+      "Developed a Node.js API for user authentication and profile management with endpoints for signup, login, and profile retrieval; integrated email confirmation using NodeMailer, and documented API functionality with setup instructions and usage guide.",
+    icon: "/assets/transparentLogo.png",
     animation: "salute",
   },
 ];
