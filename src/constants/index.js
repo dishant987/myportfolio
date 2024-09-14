@@ -59,12 +59,12 @@ export const clientReviews = [
 export const myProjects = [
   {
     title: "Quiz App",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    desc: "A dynamic quiz platform built with React.js, Node.js, and MongoDB, QuizApp offers users a wide range of trivia questions on various topics using the Trivia API. It features user authentication to provide a personalized experience, ensuring that each user's progress is saved and accessible.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+      "This project showcases my skills in full-stack development, including the integration of Material UI for a clean and responsive user interface.Offering an engaging and interactive way to test your knowledge.",
+    href: "https://quizapp-dishant.vercel.app/",
     texture: "/textures/project/project1.mp4",
-    logo: "/assets/project-logo1.png",
+    logo: "/assets/quiz.png",
     logoStyle: {
       backgroundColor: "#2A1816",
       border: "0.2px solid #36201D",
@@ -84,13 +84,18 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "JavaScript",
+        path: "/assets/js.png",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "MongoDB",
+        path: "/assets/mongo.png",
+      },
+      {
+        id: 5,
+        name: "Material UI",
+        path: "/assets/mui.png",
       },
     ],
   },

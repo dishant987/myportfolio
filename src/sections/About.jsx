@@ -101,7 +101,7 @@ const About = () => {
                   showGraticules
                   globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                   bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                  labelsData={[{ lat: 40, lng: -100, text: 'Rjieka, Croatia', color: 'white', size: 15 }]}
+                  labelsData={[{ lat: 20.385181, lng: 72.911453, text: 'Vapi, Gujarat, India', color: 'white', size: 15 }]}
                 />
               </Suspense>
             </div>
