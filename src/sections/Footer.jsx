@@ -59,7 +59,7 @@ const Footer = () => {
         <p>Privacy Policy</p>
       </div>
 
-      <div className="flex flex-col items-center justify-center ">
+      <div className="flex flex-col items-center justify-center z-10 ">
         <FloatingDock
          
           items={links}
