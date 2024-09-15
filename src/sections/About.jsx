@@ -2,6 +2,8 @@ import { lazy, Suspense, useState } from 'react';
 
 const Globe = lazy(() => import('react-globe.gl'));
 import Button from '../components/Button.jsx';
+import { HoverBorderGradient } from '@/components/ui/hover-border-gradient.jsx';
+import ShinyButton from '@/components/magicui/shiny-button.jsx';
 const IconCloud = lazy(() => import('@/components/magicui/icon-cloud.jsx'));
 const GlobeSkeleton = () => (
   <div className="rounded-full bg-gray-500 w-[326px] h-[326px] animate-pulse"></div>
@@ -20,9 +22,15 @@ const slugs = [
   "typescript",
   "javascript",
   "java",
+  "threejs",
+  "sql",
+  "shadcn",
+  "materialui",
+  
   "react",
   "nextjs",
-  "android",
+  "php",
+  "nestjs",
   "html5",
   "css3",
   "nodedotjs",
@@ -54,7 +62,12 @@ const About = () => {
       setHasCopied(false);
     }, 2000);
   };
-
+  const downloadResume = () => {
+    const link = document.createElement('a');
+    link.href = '/My_CV.pdf'; // Replace with the correct file path
+    link.download = 'Dishant_Tank_Resume.pdf';
+    link.click();
+  };
   return (
 
     <section className="c-space my-24" id="about">
@@ -140,6 +153,9 @@ const About = () => {
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
                 <p className="lg:text-base md:text-xl font-medium text-gray_gradient text-white">infodishant04tank@gmail.com</p>
+              </div>
+              <div className='flex justify-center items-center pt-4'>
+                <ShinyButton OnClick={downloadResume} text=' Download Resume' className={'px-7 py-3 rounded-3xl'} />
               </div>
             </div>
           </div>
