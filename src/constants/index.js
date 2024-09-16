@@ -89,7 +89,7 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "JavaScript",
+        name: "NodeJS",
         path: "/assets/js.png",
       },
       {
@@ -104,7 +104,7 @@ export const myProjects = [
       },
     ],
   },
-  
+
   {
     title: "Weather App",
     desc: "Built with React.js and Tailwind CSS, this Weather App provides users with real-time weather updates and forecasts for the upcoming days. The app uses Axios to fetch data from the OpenWeather API, ensuring accurate and up-to-date weather information in a responsive and intuitive interface.",
@@ -116,7 +116,6 @@ export const myProjects = [
     logoStyle: {
       backgroundColor: "#60f5a1",
 
-     
       boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
     },
     spotlight: "/assets/spotlight3.png",
@@ -134,12 +133,57 @@ export const myProjects = [
       {
         id: 3,
         name: "JavaScript",
-        path: "/assets/js.png",
+        path: "/assets/javascript.png",
       },
-     
     ],
   },
- 
+  {
+    title: "Blog App",
+    desc: "This responsive blog app, built with MongoDB, Express, React, and Node.js (MERN), allows users to create, update, and delete blog posts. It features JWT-based authentication with email verification, personalized profile pages, and image uploads via Cloudinary.",
+    subdesc:
+      "Users can sign up, verify their email, and manage their blog posts. The tech stack includes React for the frontend, Node.js and Express for the backend, MongoDB for the database, and Cloudinary for image hosting.",
+    href: "https://blog-mern-brown.vercel.app/",
+    texture: "/textures/project/project3.mp4",
+    logo: "/assets/blog.jpg",
+    logoStyle: {
+      backgroundColor: "#A020F0",
+
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "NodeJS",
+        path: "/assets/js.png",
+      },
+      {
+        id: 4,
+        name: "MongoDB",
+        path: "/assets/mongo.png",
+      },
+      {
+        id: 5,
+        name: "Material UI",
+        path: "/assets/mui.png",
+      },
+      {
+        id: 6,
+        name: "cloudinary",
+        path: "/assets/cloud.png",
+      },
+    ],
+  },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
