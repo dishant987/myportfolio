@@ -184,6 +184,57 @@ export const myProjects = [
       },
     ],
   },
+  {
+    title: "TodoList",
+    desc: "I developed a To-Do List application using React.js and Tailwind CSS for a clean and responsive design. The app supports both light and dark modes, allowing users to toggle themes for a personalized experience. Tasks can be created, updated, and deleted with full CRUD functionality, while local storage is used to persist data across sessions, ensuring tasks remain saved even after refreshing the page.",
+    href: "https://todo-list-dishant987.vercel.app/",
+    texture: "/textures/project/project4.mp4",
+    logo: "/assets/to-do.png",
+    logoStyle: {
+      backgroundColor: "white",
+
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+    ],
+  },
+  {
+    title: "Landing Page",
+    desc: "I created a music courses landing page using Next.js, Tailwind CSS, and UI Aceternity components. The page highlights courses, instructors, and testimonials with a clean, responsive design for an engaging user experience.",
+    href: "https://landingpage-with-next-js.vercel.app/",
+    href2: "https://page-mocha-psi.vercel.app/",
+    texture: "/textures/project/project5.mp4",
+    logo: "/assets/nextjs.svg",
+    logoStyle: {
+      backgroundColor: "white",
+
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "NextJS",
+        path: "/assets/nextjs.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+    ],
+  },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {

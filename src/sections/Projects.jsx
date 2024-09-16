@@ -1,5 +1,6 @@
 import CanvasLoader from '@/components/CanvasLoader';
 import DemoComputer from '@/components/DemoComputer';
+import NumberTicker from '@/components/magicui/number-ticker';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import { myProjects } from '@/constants'
 import { Center, OrbitControls } from '@react-three/drei';
@@ -23,7 +24,10 @@ const Projects = () => {
     };
     return (
         <section className='c-space my-20'>
-            <p className='head-text'>My Work</p>
+            <p className='head-text'>My Work &nbsp; <NumberTicker value={projectCount} />+  </p>
+            <p className="whitespace-pre-wrap text-4xl font-medium tracking-tighter text-black dark:text-white">
+
+            </p>
             <div className='grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full'>
 
                 <div className='flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200'>
@@ -66,6 +70,16 @@ const Projects = () => {
                             <p>Check Live Site</p>
                             <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
                         </a>
+                        {currentProject.href2 && (
+                            <a
+                                className="flex items-center gap-2 cursor-pointer text-white-600"
+                                href={currentProject.href2}
+                                target="_blank"
+                                rel="noreferrer">
+                                <p>Check Live Site 2</p>
+                                <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
+                            </a>
+                        )}
                     </div>
                     <div className="flex justify-between items-center mt-7">
                         <button className="arrow-btn" onClick={() => handleNavigation('previous')}>
