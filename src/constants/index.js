@@ -142,7 +142,7 @@ export const myProjects = [
     desc: "This responsive blog app, built with MongoDB, Express, React, and Node.js (MERN), allows users to create, update, and delete blog posts. It features JWT-based authentication with email verification, personalized profile pages, and image uploads via Cloudinary.",
     subdesc:
       "Users can sign up, verify their email, and manage their blog posts. The tech stack includes React for the frontend, Node.js and Express for the backend, MongoDB for the database, and Cloudinary for image hosting.",
-    href: "https://blog-mern-brown.vercel.app/",
+    href: "https://blogapp-dishant.vercel.app/",
     texture: "/textures/project/project3.mp4",
     logo: "/assets/blog.jpg",
     logoStyle: {
