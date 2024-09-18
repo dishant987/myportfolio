@@ -185,6 +185,44 @@ export const myProjects = [
     ],
   },
   {
+    title: "Feedback Management App",
+    desc: "I developed a feedback management system with separate interfaces for users and admins, implementing JWT authentication with email verification and password reset. Users can submit feedback forms, while admins manage them through a data grid table with Excel export functionality.",
+    subdesc:
+      "Implemented JWT authentication with email verification and password reset features. Users can submit feedback forms, while the admin side includes a data grid table with Excel data export functionality.",
+    href: "https://feedbackform-fronted.vercel.app/",
+    texture: "/textures/project/project.mp4",
+    logo: "/assets/blog.jpg",
+    logoStyle: {
+      backgroundColor: "#A020F0",
+
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+
+      {
+        id: 2,
+        name: "NodeJS",
+        path: "/assets/js.png",
+      },
+      {
+        id: 3,
+        name: "MongoDB",
+        path: "/assets/mongo.png",
+      },
+      {
+        id: 4,
+        name: "Material UI",
+        path: "/assets/mui.png",
+      },
+    ],
+  },
+  {
     title: "TodoList",
     desc: "I developed a To-Do List application using React.js and Tailwind CSS for a clean and responsive design. The app supports both light and dark modes, allowing users to toggle themes for a personalized experience. Tasks can be created, updated, and deleted with full CRUD functionality, while local storage is used to persist data across sessions, ensuring tasks remain saved even after refreshing the page.",
     href: "https://todo-list-dishant987.vercel.app/",
