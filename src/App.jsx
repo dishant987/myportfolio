@@ -9,6 +9,7 @@ import Contact from './sections/Contact'
 import Footer from './sections/Footer'
 import WorkExperience from './sections/Experience'
 import Study from './sections/Study'
+import { motion } from 'framer-motion'
 
 const Home = () => {
   return (

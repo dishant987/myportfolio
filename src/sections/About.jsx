@@ -110,7 +110,7 @@ const About = () => {
   };
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/My_CV.pdf'; // Replace with the correct file path
+    link.href = '/Dishant_CV.pdf'; // Replace with the correct file path
     link.download = 'Dishant_Tank_Resume.pdf';
     link.click();
   };
